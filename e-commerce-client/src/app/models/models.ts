@@ -7,3 +7,8 @@ export interface SuggestedProduct {
   bannerimage: string;
   category: Category;
 }
+
+export interface navigationItem {
+  category: string;
+  subcategories: string[];
+}
